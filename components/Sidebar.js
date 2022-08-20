@@ -48,7 +48,6 @@ const Sidebar = () => {
           alt='profile'
           height={50}
           width={50}
-          className='p-0 bg-blue-100'
         />
         <div className='text-gray mr-2 leading-5 hidden md:inline'>
           <h4 className='font-bold'>Lawson Chibueze</h4>
