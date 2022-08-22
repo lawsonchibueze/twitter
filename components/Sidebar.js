@@ -48,6 +48,7 @@ const Sidebar = () => {
           alt='profile'
           height={50}
           width={50}
+          className='rounded-full'
         />
         <div className='text-gray mr-2 leading-5 hidden md:inline'>
           <h4 className='font-bold'>Lawson Chibueze</h4>
