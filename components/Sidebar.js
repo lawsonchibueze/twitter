@@ -14,7 +14,7 @@ import {
 } from '@heroicons/react/outline'
 const Sidebar = () => {
   return (
-    <div className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full'>
+    <div className='hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24'>
       {/* Twitter Logo */}
       <div className='hoverEffect'>
         <Image
