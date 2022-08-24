@@ -5,6 +5,7 @@ import News from './News'
 const Widget = ({ newsResults, randomUsers }) => {
   const [randomUserNum, setRandomUserNum] = useState(3)
   const [articleNum, setArticleNum] = useState(2)
+  const adding = randomUserNum + 3
   console.log(randomUsers)
   return (
     <div className='xl:w-[600px] hidden lg:inline ml-8 space-y-5 p-4'>
@@ -61,8 +62,8 @@ const Widget = ({ newsResults, randomUsers }) => {
             </div>
           ))}
           <button
-            className='text-blue-300 pl-4 pb-3 hover:text-blue-400'
             onClick={() => setRandomUserNum(randomUserNum + 3)}
+            className='text-blue-300 pl-4 pb-3 hover:text-blue-400'
           >
             Show more
           </button>
